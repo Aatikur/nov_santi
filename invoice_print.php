@@ -315,7 +315,7 @@ include "include/footer.php";
      document.body.innerHTML = printContents;
      document.getElementById("thanks_msg").innerHTML = "Thanks For Shopping With Us";
 
-     document.getElementById("backprint").hide();
+    //  document.getElementById("backprint").hide();
 
     window.print();
     window.onafterprint = function(event) {
