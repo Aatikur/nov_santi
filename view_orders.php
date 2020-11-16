@@ -252,7 +252,7 @@
                   ?>   
                   <tr>
                     <td align="center" colspan="5">
-                      <button class="btn btn-info" onclick="printDiv()">Print</button>
+                      <a class="btn btn-info" target ="_blank" href="print.php?id=<?php echo $row_order['id']?>" >Print</a>
                       <?php
                       if (isset($_GET['s_date']) && isset($_GET['e_date'])) {
                         $s_date = $connection->real_escape_string(mysql_entities_fix_string($_GET['s_date']));          
