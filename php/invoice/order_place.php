@@ -239,7 +239,7 @@
 				}
 
 				//order update previous credit
-				$sql_update_order = "UPDATE `orders` SET `prev_balance`='$transaction_amount_row[amount]' WHERE `id`='$order_id'";
+				$sql_update_order = "UPDATE `orders` SET `prev_balance`='$credit_amount' WHERE `id`='$order_id'";
 				$connection->query($sql_update_order);
 			}
 		}

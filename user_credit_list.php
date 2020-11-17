@@ -19,51 +19,6 @@ function showMessage($msg){
     }
   }
 
-// function getUsers($connection){
-//   $sql = "SELECT * FROM `users` WHERE `status`='6' AND `user_type`!= 1";
-//   if ($res = $connection->query($sql)) {
-//     $sl_count = 1;
-//     while($user = $res->fetch_assoc()){
-//       print '<tr>
-//                 <td>'.$sl_count.'</td>
-//                 <td>'.$user['name'].'</td>
-//                 <td>'.$user['email'].'</td>';
-//       if ($user['user_type'] == 2) {
-//          print '<td>Whole Seller</td>';
-//       }else{
-//         print '<td>Retailer</td>';
-//       }
-//           print '<td>'.$user['mobile'].'</td>';
-//       $state_sql = "SELECT * FROM `state` WHERE `id`='$user[state_id]'";
-//       if($state_res = $connection->query($state_sql)){
-//         $state_row = $state_res->fetch_assoc();
-//          print '<td>'.$state_row['name'].'</td>';
-//       }else{
-//          print '<td>--</td>';
-//       }
-//         print '<td>'.$user['city'].'</td>
-//               <td>'.$user['address'].'</td>
-//                 <td>'.$user['pin'].'</td>
-//                 <td>'.$user['dob'].'</td>
-//                 <td>'.$user['ann_date'].'</td>
-//                 <td>'.$user['trade'].'</td>
-//                 <td>'.$user['drug'].'</td>
-//                 <td>'.$user['gst'].'</td>
-//                 <td>
-//                   <a href="edit_user.php?user_id='.$user['id'].'" class="btn btn-success">Edit</a>';
-//       if ($user['status'] == 2) {
-//          print '<a href="php/users/status_update.php?user_id='.$user['id'].'&status=3&page=1" class="btn btn-danger">Deactivate</a>';
-//       }elseif ($user['status'] == 3) {
-//         print '<a href="php/users/status_update.php?user_id='.$user['id'].'&status=2&page=2" class="btn btn-success">Activate</a>';
-//       }
-//         print '<a href="php/users/status_update.php?user_id='.$user['id'].'" class="btn btn-danger">Delete</a>
-//                 </td>
-//              </tr>';
-//       $sl_count++;
-//     }
-
-//   }
-// }
 ?>
 <div class="clearfix"></div>
 <div class="right_col" role="main">
