@@ -152,7 +152,7 @@
 
 			<div id='legalcopy'>
 				<p class='legal text-center'><strong>Thank You For Shopping With Us!</strong> </p>
-				<p class='legal'>If you have any query call us on +91 6033062996 / 03817960917 </p>
+				<p class='legal'>If any query call us on +91 6033062996 / 03817960917 </p>
 			</div>
 		</div>
 		<!--End InvoiceBot-->
